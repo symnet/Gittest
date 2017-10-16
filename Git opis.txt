@@ -69,3 +69,4 @@ Scalanie przeprowadzamy zdanie na githabie
 git push origin developer 
 - wypychamy ga³¹Ÿ develper do mastera
 
+Testowanie nowej ga³êzi developer2
