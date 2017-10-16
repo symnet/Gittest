@@ -1,0 +1,35 @@
+dowolny folder
+GIT INIT - za³o¿enie lokalnego repozytorium
+Git status 
+- ga³¹Ÿ
+- jakie pliki œledzimy
+- commit (komentarz co œledzimy) - zatwierdzenie zmiany w plikach
+Git œledzi zmiany jakie wprowadzamy do projektu i zatwierdzamy tzw. commit (punkt w czasie) - zapis stanu wszystkich œledzonych
+plików.... mo¿na to cofaæ.
+
+Ka¿dy commit musi posiadaæ swojego autora - u¿ytkownik, email (globalnie lub lokalnie).
+Nale¿y zdefiniowaæ usera i email
+
+git config --global user.name "rafpyt"
+git config --global user.email "rafpyt@vp.pl"
+
+git add * - git bêdzie œledzi³ wszystkie pliki prokektu - mo¿na poprzedziæ i po u¿yæ git status
+
+pliki czekaj¹ w poczekalni a¿ wykonamy commit tj. a¿ je zatwierdzimy
+
+
+commit podajemy wraz z opcj¹ - komentarzem co zmieniamy
+MUSIMY NAJPIERW DODAÆ DO POCZEKALNI, A DOPIERO POTEM DODAÆ COMMIT
+git commit -m "Pierwszy commit"
+git commit -a - DODANIE AUTOMATYCZNE ZMIAN
+Najczêœciej spotykan¹ kombinacj¹ opcji jest
+git commit -a -m "opis zmian"
+
+
+Repozytorium mo¿na sklonowaæ zgithub do lokalnego foldera
+git clone i WWW-adres
+œci¹gniête repozytorium bêdzie w podfolderze o nazwie repozytorium
+Repozytorium zdalne jest kopi¹ zabezpieczeniow¹ - jak siê utraci lokalnie to mo¿na przywróciæ
+
+zmiany mo¿na wprowadzaæ lokalnie i zatwierdzaæ je commit a nastêpnie wypycha siê je do zew.
+
