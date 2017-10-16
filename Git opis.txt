@@ -33,3 +33,21 @@ Repozytorium zdalne jest kopi¹ zabezpieczeniow¹ - jak siê utraci lokalnie to mo¿
 
 zmiany mo¿na wprowadzaæ lokalnie i zatwierdzaæ je commit a nastêpnie wypycha siê je do zew.
 
+Jeœli mamy ju¿ pliki w nowym repozytorium na dysku lokalnym robimy wszystko podobnie jak wczeœniej
+DODAJEMY JE DO POCZEKALNI
+git add *
+
+ZATWIERDZAMY COMMIETM
+git commit -m "wypychamy na github"
+a robimy to poleceniem:
+git push [remote="zdalne repozytori dostêpne pod adresem http://"] [jak ga³¹Ÿ]
+git push origin master
+ZMIANY Z LOKALNEGO REPOZYTORIUM ZOSTAJ¥ WEPCHNIÊTE DO ZDALNEGO
+
+JAK u¿ywamy ga³êzi??????????????????
+Mater to g³ówna ga³¹Ÿ
+w praktyce nie pracujemy na ga³êzi mater, zmiany wprowadzamy do kolejnych ga³êzi, master jest wzorcem kodu.
+Potem te dodatkowe ga³êzie mo¿emy scaliæ na z projektem.
+Ka¿dy deweloper pracyjne na innej ga³êzi
+Ga³¹Ÿ mo¿e dzieliæ siê na mniejsze ga³êzie
+
