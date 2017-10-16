@@ -51,3 +51,21 @@ Potem te dodatkowe ga³êzie mo¿emy scaliæ na z projektem.
 Ka¿dy deweloper pracyjne na innej ga³êzi
 Ga³¹Ÿ mo¿e dzieliæ siê na mniejsze ga³êzie
 
+ROZPOCZYNAMY od zdefiniowania nowej ga³êzi np. DEWELOPER
+git checkout -b developer [ b to skrót od branch tj. ga³¹Ÿ] - ustawiamy now¹ ga³¹Ÿ deweloper
+nastêpnie wszystko dodajemy 
+git add *
+git status
+git commit -m "nazwa modyfikacji" 
+i gotowe - zmiany na ga³êzi deweloper zosta³y wprowadzone
+Podsumowj¹ce: zmiana, dodajemy, dajemy commit i jest zmiana
+
+Scalanie z ga³êzi¹ master PULL REQEST - proœba do w³aœciciela-organizatora repozytorium \ projektu o zaakceptowanie zmian
+- on wykonuje tzw. merge.
+(zmiany by³y tylko na ga³êzi deweloper)
+Teraz developer jest bardziej aktualny ni¿ master, wiec musimy je spowrotem scaliæ menad¿er (zdalnie).
+Trzeba na githaba wepchn¹æ zmiany wys³aæ tzw. pull request do mastera - scaliæ ga³êzie. Wepchn¹æ ga³¹Ÿ dewelop (pull), aby w³aœciciel master dokona³ oceny i ew. scalenia
+Scalanie przeprowadzamy zdanie na githabie
+git push origin developer 
+- wypychamy ga³¹Ÿ develper do mastera
+
