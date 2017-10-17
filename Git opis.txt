@@ -66,6 +66,7 @@ Scalanie z ga³êzi¹ master PULL REQEST - proœba do w³aœciciela-organizatora repoz
 Teraz developer jest bardziej aktualny ni¿ master, wiec musimy je spowrotem scaliæ menad¿er (zdalnie).
 Trzeba na githaba wepchn¹æ zmiany wys³aæ tzw. pull request do mastera - scaliæ ga³êzie. Wepchn¹æ ga³¹Ÿ dewelop (pull), aby w³aœciciel master dokona³ oceny i ew. scalenia
 Scalanie przeprowadzamy zdanie na githabie
+
 git push origin developer 
 - wypychamy ga³¹Ÿ develper do mastera
 
